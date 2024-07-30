@@ -102,12 +102,6 @@ Following this initial test, I intend to setup an Elastic stack to handle the in
 
 Example `cowrie.log`, showing a successful login with credentials pi:raspberry and then subsequent file download via `scp`. The file was saved on our system but the script was prevented from executing.
 
-
-
-Running the script through VirusTotal, we're able to see what the various engines are detecting. The script appears to be fairly similar to what was described in this Sans ISC Diary post, from 2018. [https://isc.sans.edu/diary/Malicious+Network+Traffic+From+binbash/23591](https://isc.sans.edu/diary/Malicious+Network+Traffic+From+binbash/23591)
-
-![](images/virustotal.png)
-
 **It's worth pointing out that Cowrie can work directly with the VirusTotal API. This can be configured within the `cowrie.cfg` file.**
 
 
