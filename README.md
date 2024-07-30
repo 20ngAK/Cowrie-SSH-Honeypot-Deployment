@@ -125,6 +125,10 @@ I tested 2 basic methods against my server running Cowrie. The first was an Meta
 
 The scanner failed to return a successful detection.
 
+![](images/nmap.png)
+
+Output of the `nmap -sC -sV` scan. Note the OpenSSH version showing as Raspbian. You can edit the version within `cowrie.cfg`.
+
 # Captured shell script sample
 Captured within [Cowrie SSH honeypot](https://github.com/cowrie/cowrie). 12/06/2020 @ 08:45:11 UTC
 
@@ -148,9 +152,3 @@ The script appears to be fairly similar to what was described in a Sans ISC Diar
 
 ![](images/virustotal.png)
 *VirusTotal detections.*
-
-
-
-![](images/nmap.png)
-
-Output of the `nmap -sC -sV` scan. Note the OpenSSH version showing as Raspbian. You can edit the version within `cowrie.cfg`.
